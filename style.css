@@ -83,10 +83,24 @@ body {
     -webkit-appearance: none;
     width: 160px;
     vertical-align: middle;
+    height: 30px;
+    background-color: inherit;
+    font-family: 'Roboto', sans-serif;
    }
    input[type="submit"] {
     width: 30px;
     height: 30px;
     border: none;
     background: url(images/search.png) no-repeat 50% 50%;
-   }
+    background-color: #2c71b8;
+}
+
+.basket {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	background-image: url(images/basket.png);
+	background-color: white;
+	background-repeat: no-repeat;
+	background-position: center;
+}
