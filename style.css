@@ -50,11 +50,43 @@ body {
 }
 
 
+
 .menu .submenu li {
-	border: none;
 	width: 200%;
+	border: none;
 }
 .menu .submenu a {
-	text-align: left;
+	background-color: #2c71b8;
+	color: white;
 }
-.menu .submenu a:hover {}
+.menu .submenu a:hover {
+	background-color: white;
+	color: #2c71b8;
+}
+
+
+.submenu {
+	display: none;
+}
+.menu a:hover .submenu {
+	display: block;
+}
+
+.search {
+    width: 200px;
+    border: 1px solid #2c71b8;
+    height: 40px;
+   }
+   input[type="search"] {
+    border: none;
+    outline: none;
+    -webkit-appearance: none;
+    width: 160px;
+    vertical-align: middle;
+   }
+   input[type="submit"] {
+    width: 30px;
+    height: 30px;
+    border: none;
+    background: url(images/search.png) no-repeat 50% 50%;
+   }
