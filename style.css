@@ -48,22 +48,25 @@ body {
 	color: white;
 }
 
+/*----------------------------------------------------------------*/
+
 .menu .submenu li {
 	width: 200%;
+	clear: both;
 	border: none;
 }
 .menu .submenu a {
+	display: block;
 	background-color: #2c71b8;
 	color: white;
+	text-align: left;
 }
 .menu .submenu a:hover {
 	background-color: white;
 	color: #2c71b8;
 }
-
-
 .submenu {
-	display: none;
+	display: hidden;
 }
 .menu a:hover .submenu {
 	display: block;
