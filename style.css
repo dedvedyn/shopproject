@@ -139,7 +139,7 @@ input[type="submit"] {
   z-index: 3;
   color: white;
 }
-.menu .submenu a:hover .menu li:nth-child (2) {
+.menu .submenu a:hover .menu li:nth-child(2) {
   background-color: #2c71b8;
   color: white;
 }
