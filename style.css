@@ -180,16 +180,46 @@ input[type="submit"] {
 .col-3filter ul li {
   line-height: 20px;
   font-size: 18px;
+  margin-left: 20px;
 }
 .devType {
   margin-bottom: 60px;
 }
+.devType ul li {
+  position: relative;
+}
 .color {
   margin-bottom: 60px;
+}
+.color ul li {
+  position: relative;
 }
 .ram {
   margin-bottom: 25px;
 }
+.ram ul li {
+  position: relative;
+}
+input[type="checkbox"] {
+  display: none;
+}
+label:before {
+  content: "";
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: inherit;
+  border: 1px solid white;
+  position: absolute;
+  top: 4px;
+  left: -20px;
+}
+input[type="checkbox"]:checked + label:before {
+  border: 1px solid white;
+  background-color: white;
+}
+
+/*--------------------------------------------------------*/
 
 .col-9product {
   width: 75%;
