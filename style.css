@@ -177,27 +177,27 @@ input[type="submit"] {
   min-height: 855px;
   padding: 30px;
 }
-.col-3filter ul li {
-  line-height: 20px;
+.col-3filter div {
+  line-height: 38px;
   font-size: 18px;
   margin-left: 20px;
 }
 .devType {
   margin-bottom: 60px;
 }
-.devType ul li {
+.devType div {
   position: relative;
 }
 .color {
   margin-bottom: 60px;
 }
-.color ul li {
+.color div {
   position: relative;
 }
 .ram {
   margin-bottom: 25px;
 }
-.ram ul li {
+.ram div {
   position: relative;
 }
 input[type="checkbox"] {
@@ -211,7 +211,7 @@ label:before {
   background-color: inherit;
   border: 1px solid white;
   position: absolute;
-  top: 4px;
+  top: 13px;
   left: -20px;
 }
 input[type="checkbox"]:checked + label:before {
@@ -261,13 +261,15 @@ input[type="checkbox"]:checked + label:before {
 }
 [class*="devimg-"] img {
   position: absolute;
+  z-index: 2;
 }
 .like {
   width: 30px;
   height: 30px;
+  z-index: 3;
 }
 
-.col-3filter:after,.col-9product:after,.history:after,.col-9LTsort:after,.col-6LT:after,.col-3sort:after,.devices:after {
+main:after,.col-3filter:after,.col-9product:after,.history:after,.col-9LTsort:after,.col-6LT:after,.col-3sort:after,.devices:after {
   content: "";
   clear: both;
   display: block;
